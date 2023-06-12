@@ -1,0 +1,95 @@
+<script async type="text/javascript" src="/globe.js"></script>
+
+<section class="Satellite">
+      <div class="Satellite__globe js-globe"></div>
+      <span class="array"></span>
+    </section>
+        <style type="text/css" media="all">
+        
+       .Satellite {
+        position: relative;
+        height: 100%;
+        left: -20px;
+        width: calc(100% + 40px);
+        overflow-x: hidden;
+        padding-top: calc(100% + 40px);
+        margin: 35px 0 15px;
+        transform: scale(0.6) !important;
+      }
+      .Satellite {
+        left: -200px;
+        width: calc(100% + 400px);
+        padding-top: calc(100% + 400px);
+      }
+      .Satellite__globe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: move;
+        cursor: -webkit-grab;
+        cursor: -moz-grab;
+        cursor: grab;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: box;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -o-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        will-change: transform;
+      }
+      .Satellite__globe:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+@media(max-width: 768px){
+        .Satellite {
+        position: relative;
+        height: 90%;
+        left: -20px;
+        width: calc(90% + 40px);
+        overflow-x: hidden;
+        padding-top: calc(90% + 40px);
+        margin: 35px 0 15px;
+        transform: scale(0.75) !important;
+      }
+      .Satellite {
+        left: -90px;
+        width: calc(90% + 300px);
+        padding-top: calc(100% + 300px);
+      }
+      .Satellite__globe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 80%;
+        cursor: move;
+        cursor: -webkit-grab;
+        cursor: -moz-grab;
+        cursor: grab;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: box;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -o-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        will-change: transform;
+      }
+        }
+
+</style>
